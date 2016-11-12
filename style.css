@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;;
+}
+
+.new_note{
+    margin-bottom: 5px;
+}
+
+.new_note_content{
+    width: 100%;
+    font-size: 1.3em;
+}
+
+.notes{
+    list-style: none;
+}
+
+.note{
+    min-width: 300px;
+    background-color:#cde;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
