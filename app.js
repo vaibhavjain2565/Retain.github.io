@@ -36,6 +36,7 @@ var view={
         this.list=$("#notes");
         this.form.submit(function(e){
             octopus.addData(this.input.val());
+            console.log(this.input);
             this.input.val('');
             e.preventDefault();
         });
